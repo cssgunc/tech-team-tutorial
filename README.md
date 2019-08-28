@@ -22,7 +22,7 @@ If you would like to use git through a GUI, follow [this link](https://desktop.g
         - Alternatively I can use `cd /c/Users/AustinWang/Documents` to navigate to the same folder directly. 
 1. Go back to the [Github repository page](https://github.com/unc-cs-sg/github-tutorial) and find the green button on the right that says "Clone or download". Copy the link.
 1. Return to your command line. Type `git clone GIT_REPO_LINK` where `GIT_REPO_LINK` is the link you copied.
-1. You will now have a folder named `github-example` at your current location. Use `ls` to see it and use `cd github-example` to move to the folder. This folder is your local git repository.
+1. You will now have a folder named `github-tutorial` at your current location. Use `ls` to see it and use `cd github-tutorial` to move to the folder. This folder is your local git repository.
 ### GUI
 1. Go to the [Github repository page](https://github.com/unc-cs-sg/github-tutorial) and find the green button on the right that says "Clone or download". Copy the link.
 1. Open Github for Desktop and login to your Github account.
@@ -33,15 +33,15 @@ If you would like to use git through a GUI, follow [this link](https://desktop.g
 
 ## Making Changes to a Branch
 ### Command Line
-1. Open your command line. Navigate to your `github-example` repository.
+1. Open your command line. Navigate to your `github-tutorial` repository.
 1. You will now make a new branch. A branch is like a separate version of the repository. Choose a name for your branch (your Github username works). 
 1. Create a new branch and switch to it. All your changes will now edit this branch.
     - You can create the branch and switch to it in one command by typing `git checkout -b NAME_OF_BRANCH`.
     - You can also do this by typing `git branch NAME_OF_BRANCH` to create your branch and `git checkout NAME_OF_BRANCH` to switch to it.
-1. Open the `README.md` file from the `github-example` folder in any editor.
+1. Open the `README.md` file from the `github-tutorial` folder in any editor.
 1. Go to the bottom of the file and add your name under `CS+SG Team`.
 ### GUI
-1. Open Github for Desktop and open the `github-example` project.
+1. Open Github for Desktop and open the `github-tutorial` project.
 1. You will now make a new branch. A branch is like a separate version of the repository. Choose a name for your branch (your Github username works).
 1. Click the `Current branch: master` tab. This should give you a dropdown.
 1. Click `New branch`. This should open a pop-up.
@@ -52,13 +52,13 @@ If you would like to use git through a GUI, follow [this link](https://desktop.g
 
 ## Pushing to Github Remote Repo
 ### Command Line
-1. Open your command line. Navigate to your `github-example` repository.
+1. Open your command line. Navigate to your `github-tutorial` repository.
 1. Type `git status`. You should see the files you've changed. `README.md` should show up here.
 1. Type `git add README.md`. This command will add `README.md` to the files you want to commit (or save).
 1. Type `git commit -m COMMIT_MESSAGE` where `COMMIT_MESSAGE` is a short description of your changes. This will create a commit (or save a snapshot of your changes).
 1. Type `git push origin NAME_OF_BRANCH` where `NAME_OF_BRANCH` is the name of your new branch. This will send the local commits you made to the Github repository.
 ### GUI
-1. Open Github for Desktop and open the `github-example` project.
+1. Open Github for Desktop and open the `github-tutorial` project.
 1. In the left panel, open the `Changes` tab.
 1. At the bottom of the panel, find the text box next to your profile picture. It should say `Update README.md`. Type a short description of your changes here.
     1. If you have a longer description, you can add it in the `Description` box.
