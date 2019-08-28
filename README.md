@@ -22,7 +22,7 @@ If you would like to use git through a GUI, follow [this link](https://desktop.g
         - Alternatively I can use `cd /c/Users/AustinWang/Documents` to navigate to the same folder directly. 
 1. Go back to the [Github repository page](https://github.com/unc-cs-sg/github-tutorial) and find the green button on the right that says "Clone or download". Copy the link.
 1. Return to your command line. Type `git clone GIT_REPO_LINK` where `GIT_REPO_LINK` is the link you copied.
-1. You will now have a folder named `github-example` at your current location. Use `ls` to see it and use `cd github-example` to move to the folder. This folder is your local git repository.
+1. You will now have a folder named `github-tutorial` at your current location. Use `ls` to see it and use `cd github-example` to move to the folder. This folder is your local git repository.
 ### GUI
 1. Go to the [Github repository page](https://github.com/unc-cs-sg/github-tutorial) and find the green button on the right that says "Clone or download". Copy the link.
 1. Open Github for Desktop and login to your Github account.
