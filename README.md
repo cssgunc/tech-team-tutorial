@@ -27,7 +27,8 @@ Notes:
 ## Learning the Command Line
 Once you have Git installed, you can start working in the command line.
 1. Determine what terminal you'll be using.
-    - On **Mac**, you can simply use **Terminal**. 
+    - If you're using Visual Studio Code, you can open a terminal by going to the top menu and selecting Terminal > New Terminal. 
+    - On **Mac**, you can use **Terminal**. 
     - On **Windows**, you can use **Powershell** or **Git Bash** (this should have been installed along with Git for Windows).
     - On **Linux**, you're probably familiar with the command line already.
 1. Open your terminal. First we'll need to set up Git with your GitHub account information. 
@@ -43,6 +44,8 @@ Once you have Git installed, you can start working in the command line.
         - A single dot `.` refers to the current folder you're in. Two dots `..` refers to the folder one level up. Running `cd ..` will bring you up one folder relative to your current location.
             - Eg. If I am in `/c/Users/AustinWang/Documents` and I run `cd ..`,  I will end up in `/c/Users/AustinWang`
             - You can chain these with slashes. So `cd ../../..` will bring you up three levels.
+    1. `code`: If you installed Visual Studio Code and added it to your path during installation, this command will open it from terminal.
+        - You can type `code .` to run VS Code and open your current folder.
 1. Determine where you want to create the folder for this project. You don't need to actually create a folder yet.
     - Eg. I've decided to use my `Documents` folder.
 1. Using the commands above, navigate to the location you've chosen.
