@@ -95,7 +95,11 @@ This semester, our Tech Teams will most likely be working with React. In this se
     - If you're on Windows and using **Git Bash** as your terminal, follow the Mac/Linux commands in the tutorial instead of the Windows commands.
 1. Once you're done commit and push your changes to GitHub.
 
-TODO: Go through the tutorial and find pain points. Consider adding a list of tips.
+Tips:
+- Please read the sections between the coding portions. Sometimes they give additional instructions that you might otherwise miss.
+- If you get lost on what part of the code to edit, re-read the section, and try CTRL-F to find the appropriate section in your code.
+- If you make a mistake and get an error when running your React app in the browser, it should give you a line number to check.
+    - This is typically formatted as `lineNumber:characterNumber`.
 
 ## Making a Pull Request
 After you've finished working on your branch, you can create a pull request to merge your branch back into the main branch.
