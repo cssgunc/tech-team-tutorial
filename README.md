@@ -5,7 +5,7 @@ In this tutorial you'll learn some basics of React, Git and GitHub. We don't exp
 If you're already familiar with React, Git, and GitHub, please do the following:
 1. Fork this repo and clone it. Create a new branch.
 2. Add your name to the bottom of this README.
-3. Follow the [React tutorial](https://reactjs.org/tutorial/tutorial.html), name the React app after your GitHub username, and place it in the `react-projects` folder.
+3. Create a new folder named after your GitHub username in the `react-projects` folder. Within this new folder create a React app following the [React tutorial](https://reactjs.org/tutorial/tutorial.html).
 4. Push to your fork and open a pull request to the master branch of this repo.
 
 ## Create a GitHub account
@@ -86,10 +86,10 @@ Now that you've made changes locally, you'll learn how to save those changes and
 ## React
 This semester, our Tech Teams will most likely be working with React. In this section, we're asking you to follow the official React tutorial. This will get you familiar with React, but you'll also be expected to pick up new skills during the semester.
 
-1. Navigate to the `react-projects` folder within the `tech-team-tutorial` repository. This is where you'll create the project for the React tutorial.
+1. Navigate to the `react-projects` folder within the `tech-team-tutorial` repository. Create a new folder named after your GitHub username and `cd` into it. This is where you'll create the project for the React tutorial.
 1. (Read the bullet points below for important info) Follow the [React tutorial](https://reactjs.org/tutorial/tutorial.html). This will require some software installation and use of the command line.
-    - In **Setup for the Tutorial**, please follow **Option 2: Local Development Environment**. Instead of `npx create-react-app my-app` run `npx create-react-app GITHUB_USERNAME` but replace `GITHUB_USERNAME` with your GitHub username.
-        - Eg. I would run `npx create-react-app dafondo`.
+    - In **Setup for the Tutorial**, please follow **Option 2: Local Development Environment**.
+    - If you're on Windows and using **Git Bash** as your terminal, follow the Mac/Linux commands in the tutorial instead of the Windows commands.
 1. Once you're done commit and push your changes to GitHub.
 
 TODO: Go through the tutorial and find pain points. Consider adding a list of tips.
