@@ -55,11 +55,13 @@ Once you have Git installed, you can start working in the command line.
 The first thing you'll do here is fork the repository. This will make a copy of the GitHub repository under your GitHub account.
 
 1. Go to the [GitHub repository page](https://github.com/unc-cs-sg/tech-team-tutorial) for this tutorial (if you're already here just scroll up). In the top right corner of the page, click **Fork**.
+
 ![Forking the repo](/images/github-fork.png)
 
 Next you'll copy the project from GitHub to your computer.
 
 1. Go to the **fork** repository you just made (not the original repo). Find the green button on the right side of the page. It should say **"Clone or download"** or **"Code"**. Click on the button and copy the link under **Clone with HTTPS**.
+
 ![Getting the repo link](/images/github-clone-link.png)
 
 1. Open your command line and use `cd` to navigate to the folder where you want to download the project (eg. `Documents`). Type `git clone GIT_REPO_LINK` but replace `GIT_REPO_LINK` with the link you copied. This will download the project from GitHub onto your computer.
@@ -111,6 +113,8 @@ After you've finished working on your branch, you can create a pull request to m
     - `base`: `master`
     - `head repository`: your fork repo
     - `compare`: your new branch.
+
+![Opening a pull request](/images/github-pr.png)
 1. Click `Create pull request`. This will create a request to merge your new branch from your fork into the main branch of the original repository.
 1. Once this pull request is approved, the changes in your branch will be merged into the master branch.
 
