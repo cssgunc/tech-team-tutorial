@@ -1,6 +1,13 @@
 # Tech Team Tutorial
 In this tutorial you'll learn some basics of React, Git and GitHub. We don't expect you to be an expert by the end of this guide, but you will get a glimpse of the tools and technologies we use on our Tech Teams.
 
+## TL;DR
+If you're already familiar with React, Git, and GitHub, please do the following:
+1. Fork this repo and clone it. Create a new branch.
+2. Add your name to the bottom of this README.
+3. Follow the [React tutorial](https://reactjs.org/tutorial/tutorial.html), name the React app after your GitHub username, and place it in the `react-projects` folder.
+4. Push to your fork and open a pull request to the master branch of this repo.
+
 ## Create a GitHub account
 If you don't already have one, you'll need to create an account on GitHub.
 
@@ -79,10 +86,10 @@ Now that you've made changes locally, you'll learn how to save those changes and
 ## React
 This semester, our Tech Teams will most likely be working with React. In this section, we're asking you to follow the official React tutorial. This will get you familiar with React, but you'll also be expected to pick up new skills during the semester.
 
-1. Navigate to your `tech-team-tutorial` repository and create a new folder named after your GitHub username. 
-1. `cd` into the new folder. This is where you'll create the project for the React tutorial.
-1. Follow the [React tutorial](https://reactjs.org/tutorial/tutorial.html#setup-option-2-local-development-environment). This will require you to use the command line.
-    - In **Setup for the Tutorial**, please follow **Option 2: Local Development Environment**.
+1. Navigate to the `react-projects` folder within the `tech-team-tutorial` repository. This is where you'll create the project for the React tutorial.
+1. (Read the bullet points below for important info) Follow the [React tutorial](https://reactjs.org/tutorial/tutorial.html). This will require some software installation and use of the command line.
+    - In **Setup for the Tutorial**, please follow **Option 2: Local Development Environment**. Instead of `npx create-react-app my-app` run `npx create-react-app GITHUB_USERNAME` but replace `GITHUB_USERNAME` with your GitHub username.
+        - Eg. I would run `npx create-react-app dafondo`.
 1. Once you're done commit and push your changes to GitHub.
 
 TODO: Go through the tutorial and find pain points. Consider adding a list of tips.
