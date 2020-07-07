@@ -16,13 +16,11 @@ If you don't already have one, you'll need to create an account on GitHub.
 You may already have a text editor that you're comfortable with. If not, we recommend [Visual Studio Code](https://code.visualstudio.com/).
 
 ### Git
-At CS+SG (and in the software industry), we use Git through the command line.
+At CS+SG, we use Git for version control.
 
 1. Follow [this link](https://Git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install Git. The default installation options should be fine.
-
-Notes: 
-- **DO NOT** install GitHub Desktop. While it's a useful tool for learning Git, it has some limitations and is not commonly used in industry.
-- You may have used Git for class (eg. through Eclipse for 401), but you should still follow this tutorial to learn how we use Git.
+    - **DO NOT** install GitHub Desktop. While it's a useful tool for learning Git, it has some limitations and is not commonly used in industry.
+    - You may have used Git for class (eg. through Eclipse for 401), but you should still follow this tutorial to learn how we use Git.
 
 ## Learning the Command Line
 Once you have Git installed, you can start working in the command line.
