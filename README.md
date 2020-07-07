@@ -73,19 +73,21 @@ Now you'll learn how to make a new branch in Git. Each branch is like a separate
 1. Open your command line. Navigate to your `tech-team-tutorial` folder.
 1. First, to make sure your local repo is up-to-date, run `git pull`. This will pull any new changes that other people have made to the GitHub repository. This is always a good idea if you haven't worked on a Git project in a while.
 1. Choose a name for your branch. For this tutorial, you can name your branch after yourself or your GitHub username. Try not to pick something that other people might also use.
-    - Eg. I'll name my branch `austin-wang`
+    - Eg. I'll name my branch `dafondo`, my GitHub username.
 1. Type `git checkout -b NAME_OF_BRANCH` but replace `NAME_OF_BRANCH` with the branch name you've chosen. This will create a new branch and switch to it.
     - Alternatively, you can type `git branch NAME_OF_BRANCH` to create your branch, and `git checkout NAME_OF_BRANCH` to switch to it.
 1. Open the `README.md` file in the `tech-team-tutorial` folder with any text editor.
-1. Go to the bottom of the file and add your name under `CS+SG Team`.
+1. Go to the bottom of the file and add your name under `CS+SG Team` and **save** the file.
 
 ## Commiting your changes and Pushing to GitHub
 Now that you've made changes locally, you'll learn how to save those changes and upload them to GitHub.
 1. Open your command line. Navigate to your `tech-team-tutorial` repository.
 1. Type `git status`. This will show you what files you've changed. `README.md` should show up here.
 1. Type `git add README.md`. This command will add `README.md` to the files you want to commit (or save).
+    - You can type `git add -A` to add all changed files or `git add .` to add all changed files in your current working directory.
 1. Type `git commit -m COMMIT_MESSAGE` but replace `COMMIT_MESSAGE` with a short description of your changes. This will create a commit (or save your changes).
-1. Type `git push origin NAME_OF_BRANCH` but replace `NAME_OF_BRANCH` with the name of your new branch. This will upload the local commits you've made to the GitHub repository.
+    - If you made a mistake in your commit or commit message, you can type `git commit --amend` to fix it before pushing.
+1. Type `git push origin NAME_OF_BRANCH` but replace `NAME_OF_BRANCH` with the name of your new branch. This will upload the local commits you've made to your fork's GitHub repository.
 
 ## React
 This semester, our Tech Teams will most likely be working with React. In this section, we're asking you to follow the official React tutorial. This will get you familiar with React, but you'll also be expected to pick up new skills during the semester.
@@ -101,6 +103,7 @@ Tips:
 - If you get lost on what part of the code to edit, re-read the section, and try CTRL-F to find the appropriate section in your code.
 - If you make a mistake and get an error when running your React app in the browser, it should give you a line number to check.
     - This is typically formatted as `lineNumber:characterNumber`.
+    - Check for typos!
 
 ## Making a Pull Request
 After you've finished working on your branch, you can create a pull request to merge your branch back into the main branch.
@@ -118,6 +121,7 @@ After you've finished working on your branch, you can create a pull request to m
 1. Once this pull request is approved, the changes in your branch will be merged into the master branch.
 
 ## Congrats, you're done!
+We hope you've learned something through this tutorial. It's okay if you still have a lot of questions. You'll be putting these skills to practice on the Tech Teams, and picking up new ones along the way!
 
 ## CS+SG Team
 - Austin Wang
