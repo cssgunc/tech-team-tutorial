@@ -68,7 +68,7 @@ Next you'll copy the project from GitHub to your computer.
 1. You will now have a folder named `tech-team-tutorial` at your current location. Use `ls` to see it and use `cd tech-team-tutorial` to move into the folder. This folder is your local Git repository.
 
 ## Making Changes to a Branch
-Now you'll learn how to make a new branch in Git. Each branch is like a separate copy of the Git repository. Each repository will have a main branch. A new branch can be used like a working copy of your project. You can make changes in a branch without affecting the main branch, and merge your changes in once you're done.
+Now you'll learn how to make a new branch in Git. Each branch is like a separate copy of the Git repository. A new branch can be used like a working copy of your project. You can make changes in a branch without affecting the main branch, and merge your changes in once you're done.
 
 1. Open your command line. Navigate to your `tech-team-tutorial` folder.
 1. First, to make sure your local repo is up-to-date, run `git pull`. This will pull any new changes that other people have made to the GitHub repository. This is always a good idea if you haven't worked on a Git project in a while.
