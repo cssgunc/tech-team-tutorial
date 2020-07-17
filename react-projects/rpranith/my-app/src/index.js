@@ -70,6 +70,16 @@ class Game extends React.Component {
         });
     }
 
+    restart() {
+        return this.setState({
+            history: [{
+                squares: Array(9).fill(null),
+            }],
+            stepNumber: 0,
+            xIsNext: true,
+        });
+    }
+
     jumpTo(step) {
         this.setState({
             stepNumber: step,
@@ -88,28 +98,36 @@ class Game extends React.Component {
                 'Go to game start';
             return (
                 <li key={move}>
-                    <button onClick={() => this.jumpTo(move)}>{desc}</button>
+                    <button className="history-button" onClick={() => this.jumpTo(move)}>{desc}</button>
                 </li>
             );
         });
 
         let status;
+        let button;
+
         if (winner) {
             status = 'Winner: ' + winner;
         } else {
             status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         }
+        
+        if(winner || this.state.history.length === 10) {
+            button = <button winner={false} className="restart-button" onClick={() => this.restart()}>Restart</button>
+        }
+
         return (
             <div className="game">
-                <div className="game-board">
+                <h1 className="title">Welcome to Tic Tac Toe</h1>
                     <Board
+                        className = "game-board"
                         squares={current.squares}
                         onClick={(i) => this.handleClick(i)}
                     />
-                </div>
                 <div className="game-info">
                     <div>{status}</div>
                     <ol>{moves}</ol>
+                    <div>{button}</div>
                 </div>
             </div>
         );
