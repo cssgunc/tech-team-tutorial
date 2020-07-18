@@ -113,7 +113,7 @@ class Game extends React.Component {
         }
         
         if(winner || this.state.history.length === 10) {
-            button = <button winner={false} className="restart-button" onClick={() => this.restart()}>Restart</button>
+            button = <button className="restart-button" onClick={() => this.restart()}>Restart</button>
         }
 
         return (
