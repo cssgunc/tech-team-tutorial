@@ -25,11 +25,11 @@ At CS+SG, we use Git for version control.
 ## Learning the Command Line
 Once you have Git installed, you can start working in the command line.
 1. Determine what terminal you'll be using.
-    - If you're using Visual Studio Code, you can open a terminal by going to the top menu and selecting Terminal > New Terminal. 
-    - On **Mac**, you can use **Terminal**. 
+    - If you're using Visual Studio Code, you can open a terminal by going to the top menu and selecting Terminal > New Terminal.
+    - On **Mac**, you can use **Terminal**.
     - On **Windows**, you can use **Powershell** or **Git Bash** (this should have been installed along with Git for Windows).
     - On **Linux**, you're probably familiar with the command line already.
-1. Open your terminal. First we'll need to set up Git with your GitHub account information. 
+1. Open your terminal. First we'll need to set up Git with your GitHub account information.
     - Type `git config --global user.email "you@example.com"` and set your email to the same one you used to create your GitHub account.
     - Type `git config --global user.name "Your Name"` and set it to your name (or the name you want to be shown on the code you write). This does not have to be the same as your GitHub username.
 1. You'll use these commands to navigate in your terminal. Read over these commands and try them out in your terminal:
@@ -37,7 +37,7 @@ Once you have Git installed, you can start working in the command line.
     1. `ls`: List. This command will list all the files and folders at your current location.
         - You can run `ls -a` to list any hidden files as well.
     1. `cd`: Change directory. This command will let you move around your file directory.
-        - If I am in `/c/Users/AustinWang` and I use `cd Documents`, I will end up in `/c/Users/AustinWang/Documents`. 
+        - If I am in `/c/Users/AustinWang` and I use `cd Documents`, I will end up in `/c/Users/AustinWang/Documents`.
         - Alternatively I can use `cd /c/Users/AustinWang/Documents` to navigate to the same folder directly.
         - A single dot `.` refers to the current folder you're in. Two dots `..` refers to the folder one level up. Running `cd ..` will bring you up one folder relative to your current location.
             - Eg. If I am in `/c/Users/AustinWang/Documents` and I run `cd ..`,  I will end up in `/c/Users/AustinWang`
@@ -111,7 +111,7 @@ After you've finished working on your branch, you can create a pull request to m
 1. Go to the `Pull requests` tab.
 1. Click `New pull request`.
 1. Make sure these values match
-    - `base repository`: `unc-cs-sg/tech-team-tutorial` 
+    - `base repository`: `unc-cs-sg/tech-team-tutorial`
     - `base`: `master`
     - `head repository`: your fork repo
     - `compare`: your new branch.
@@ -131,3 +131,4 @@ We hope you've learned something through this tutorial. It's okay if you still h
 - Kavish Gandhi
 - Pranith Koppula
 - Lucas Zhang
+- Avery Marsh
