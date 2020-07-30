@@ -137,3 +137,5 @@ We hope you've learned something through this tutorial. It's okay if you still h
 - Helen Charbonnet
 - Sameer Rao
 - Harshul Makwana
+- Thomas Drake
+- Amy Song
